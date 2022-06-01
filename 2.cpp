@@ -32,7 +32,7 @@ void MaxSum(int array[],int len)
 			}
 		}
 	}
-	printf("×î´ó×ÓÊı×éºÍmaxSumÎª: %d\n", maxSum);
+	printf("æœ€å¤§å­æ•°ç»„å’ŒmaxSumä¸º: %d\n", maxSum);
 }
 
 void main()
@@ -40,7 +40,7 @@ void main()
 	int i;
 	int a[6];
 	FILE *fp;
-	if((fp=fopen("input1.txt","r"))==NULL)
+	if((fp=fopen("input.txt","r"))==NULL)
 	{
 		printf("can't open file\n");
 		return;
@@ -51,7 +51,7 @@ void main()
 		fscanf(fp,"\n");
 	}
 	fclose(fp);
-	printf("´Óinput.txtÖĞ¶ÁÈ¡µÄÊı¾İÎª£º");
+	printf("ä»input.txtä¸­è¯»å–çš„æ•°æ®ä¸ºï¼š");
 	for(i=0;i<6;i++)
 	{
 		printf("%d ",a[i]);
